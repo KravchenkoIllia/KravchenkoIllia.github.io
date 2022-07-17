@@ -1,0 +1,175 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.main {
+    margin: 0 auto;
+    display: flex;
+    width: 1200px;
+    min-height: 1350px;
+    border: 20px solid #E5E5E5;;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.sidebar {
+    padding-top: 40px;
+    background: #1E2939;
+    width: 370px;
+}
+.my_photo {
+    width: 370px;
+}
+.contacts h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.contacts_info {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.contacts_info p {
+    margin: 0;
+}
+.contacts_info a {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.tech_skills {
+    margin-top: 50px;
+}
+.tech_skills h3{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.tech_skills_list li::marker {
+    color: #FB6D3A;
+}
+.tech_skills_list {
+    padding: 0;
+    margin-left: 17px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.skills_wrapper {
+    padding: 50px 40px;
+}
+.soft_skills {
+    margin-top: 44px;
+}
+.soft_skills h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.soft_skills_list li::marker {
+    color: #FB6D3A;
+}
+.soft_skills_list {
+    padding: 0;
+    margin-left: 17px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.content {
+    padding: 100px 0 0 80px ;
+}
+.about {
+    width: 400px;
+}
+.about h2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.about h1 {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+}
+.about p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.project_list {
+    padding-left: 0;
+    margin-left: 17px;
+}
+.project_list li::marker {
+    font-weight: 700;
+    font-size: 14px;
+}
+.project_list li a{
+    margin-left: 13px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.title {
+    margin: 0;
+    margin-top: 45px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+}
+.subtitle {
+    margin: 0;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+}
+.descr {
+    margin: 0;
+    margin-top: 11px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #A8A8A8;
+}
+.orange {
+    color: #FB6D3A;
+}
+.line {
+    font-weight: 700;
+    color: #000000;
+    margin: 0 10px;
+}
+.languages_list {
+    padding: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.education p {
+    margin: 0;
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+
