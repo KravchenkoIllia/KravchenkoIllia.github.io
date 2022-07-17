@@ -1,6 +1,9 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+a:active{
+    color: #FB6D3A;
+}
 .main {
     margin: 0 auto;
     display: flex;
