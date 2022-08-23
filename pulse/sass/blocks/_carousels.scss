@@ -1,0 +1,26 @@
+.carousel {
+    padding: 81px 0;
+    .tns-item {
+        img {
+            display: block;
+            margin: 0 auto;
+            z-index: 1;
+        }
+
+    }
+    .prev{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        background-color: #fff;
+    }
+    .next{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        border: none;
+        background-color: #fff;
+    }
+}
