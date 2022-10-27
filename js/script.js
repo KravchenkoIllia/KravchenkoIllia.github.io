@@ -17,3 +17,8 @@ counters.forEach( (item, i) => {
     lines[i].style.width = item.innerHTML; 
 });
 
+function stopDefAction(evt) {
+    evt.preventDefault();
+}
+
+document.getElementById('submit').addEventListener('click', stopDefAction, false);

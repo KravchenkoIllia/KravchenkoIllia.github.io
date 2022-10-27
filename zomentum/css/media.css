@@ -1,0 +1,157 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 900px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 993px) {
+    .container {
+        width: 700px;
+        margin: 0 auto;
+    }
+    .navbar {
+        padding: 18px;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100px;
+    }
+    .nav-items {
+        margin-top: 15px;
+    }
+    .promo__left-img {
+        display: none;
+    }
+    .offers-wrapper {
+        padding-top: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .offers__item-header h2 {
+        margin-top: 25px;
+    }
+    .offers-item {
+        flex-direction: column;
+        margin: 50px auto;
+        width: 100%;
+        border: 1px solid black;
+        padding: 15px 0;
+    }
+    .offers__item-img img{
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .footer__wrapper {
+        padding: 30px 15px;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 550px;
+        margin: 0 auto;
+    }
+    .nav-items {
+        width: 100%;
+    }
+    .nav-btn {
+        display: none;
+    }
+    .promo {
+        padding: 15px;
+        padding-top: 150px;
+    }
+    .promo__right-img {
+        display: none;
+    }
+    .services-title {
+        margin-top: 50px;
+    }
+
+    .footer a {
+        font-size: 11px;
+    }
+    .services-descr {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .navbar {
+        padding: 5px;
+    }
+    .nav-list {
+        width: 100%;
+    }
+    .navbar-login {
+        display: none;
+    }
+    .nav-items {
+        display: block;
+    }
+    .promo {
+        height: 600px;    
+        padding-top: 50px;  
+    }
+    .header-title {
+        font-size: 32px;
+    }
+    .services{
+        padding: 20px;
+        height: 570px;
+    }
+    .services-title {
+        margin-top: 0;
+    }
+    .services-items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-item {
+        width: 100%;
+        flex-direction: row;
+        height: 130px;
+        justify-content: space-around;
+    }
+    .services-descr {
+        line-height: 16px;
+    }
+    .offers-item {
+        padding: 10px;
+        margin-top: 15px;
+    }
+    .offers__item-descr {
+        width: 100%;
+    }
+    .offers__item-img img {
+        width: 100%;
+    }
+    .product-list{
+        display: none;
+    }
+    .footer__social {
+        flex-direction: column;
+        margin-top: 15px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    footer {
+        height: 500px;
+    }
+    .product-list{
+        display: block;
+    }
+    .footer__wrapper {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+}
