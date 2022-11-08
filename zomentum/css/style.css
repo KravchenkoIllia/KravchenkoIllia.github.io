@@ -24,14 +24,12 @@ ul {
 }
 .navbar {
     padding: 18px 130px 18px 70px;
-    height: 56px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .nav-list {
     margin: 0 auto;
-    width: 440px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -39,6 +37,9 @@ ul {
     font-size: 14px;
     line-height: 18px;
     color: #000C2D;
+}
+.nav-list li {
+    margin-right: 20px;
 }
 .nav-items {
     width: 670px;
@@ -60,9 +61,8 @@ ul {
 }
 .promo {
     position: relative;
-    height: 533px;
     background-color: #2F70FE;
-    padding-top: 115px;
+    padding: 115px 0;
 }
 .promo__left-img {
     position: absolute;
@@ -108,8 +108,7 @@ ul {
     z-index: 6;
 }
 .services {
-    padding-top: 80px;
-    height: 497px;
+    padding: 80px 0;
     background-color: rgba(0, 255, 133, 0.08);
 }
 .services-title {

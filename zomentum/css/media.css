@@ -33,10 +33,21 @@
     }
     .offers-item {
         flex-direction: column;
-        margin: 50px auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 25px auto;
         width: 100%;
-        border: 1px solid black;
         padding: 15px 0;
+    }
+    .offers-item:first-child{
+        flex-direction: column-reverse;
+    }
+    .offers-item:last-child{
+        flex-direction: column-reverse;
+    }
+    .offers-item:nth-child(3){
+        flex-direction: column-reverse;
     }
     .offers__item-img img{
         display: block;
@@ -144,14 +155,18 @@
 }
 
 @media (max-width: 400px) {
+    .nav-list li {
+        margin-right: 5px;
+    }
     footer {
-        height: 500px;
+        height: 600px;
     }
     .product-list{
         display: block;
     }
     .footer__wrapper {
+        height: 100%;
         flex-wrap: wrap;
-        row-gap: 20px;
+        gap: 25px;
     }
 }
